@@ -1,14 +1,19 @@
 .thing {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     background-color: rgb(255, 203, 143);
     position: absolute;
     border-radius: 50%;
+    
+}
+
+.star {
     box-shadow: 0 0 10px 0.8px rgb(252, 184, 107);
 }
 
-
-
+.finish {
+    box-shadow: 0 0 10px 0.8px rgb(253, 253, 253);
+}
 /* Prevent padding and border from affecting element width. */
 *,
 ::before,
